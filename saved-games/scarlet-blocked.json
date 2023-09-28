@@ -1,0 +1,67 @@
+{
+  "playersInfo": [
+    {
+      "name": "milan",
+      "character": "scarlet",
+      "id": 1,
+      "cards": [
+        { "title": "lead-pipe", "type": "weapon" },
+        { "title": "rope", "type": "weapon" },
+        { "title": "library", "type": "room" },
+        { "title": "study", "type": "room" },
+        { "title": "spanner", "type": "weapon" },
+        { "title": "green", "type": "suspect" }
+      ],
+      "permissions": {
+        "accuse": true,
+        "rollDice": true,
+        "movePawn": true,
+        "endTurn": false,
+        "suspect": false
+      }
+    },
+    {
+      "name": "riya",
+      "character": "mustard",
+      "id": 2,
+      "cards": [
+        { "title": "candlestick", "type": "weapon" },
+        { "title": "dining-room", "type": "room" },
+        { "title": "hall", "type": "room" },
+        { "title": "kitchen", "type": "room" },
+        { "title": "conservatory", "type": "room" },
+        { "title": "peacock", "type": "suspect" }
+      ]
+    },
+    {
+      "name": "sauma",
+      "id": 3,
+      "character": "white",
+      "cards": [
+        { "title": "ball-room", "type": "room" },
+        { "title": "billiard-room", "type": "room" },
+        { "title": "plum", "type": "suspect" },
+        { "title": "scarlet", "type": "suspect" },
+        { "title": "white", "type": "suspect" },
+        { "title": "revolver", "type": "weapon" }
+      ]
+    }
+  ],
+  "initialPositions": {
+    "scarlet": { "x": 12, "y": 7 },
+    "mustard": { "x": 11, "y": 7 },
+    "white": { "x": 14, "y": 7 },
+    "green": { "x": 9, "y": 24 },
+    "peacock": { "x": 0, "y": 18 },
+    "plum": { "x": 0, "y": 5 }
+  },
+  "killingCombination": {
+    "weapon": "dagger",
+    "suspect": "mustard",
+    "room": "lounge"
+  },
+  "action": "turnEnded",
+  "lastDiceCombination": [6, 6],
+  "isAccusing": false,
+  "isSuspecting": false
+}
